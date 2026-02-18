@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend Practice Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Frontend Project</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#">Tasks</a>
+    </nav>
+    <div class="grid-container">
+        <section class="card">
+            <h2>Contact Form</h2>
+
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Enter Name">
+                <input type="email" id="email" placeholder="Enter Email">
+                 <textarea id="message" placeholder="Enter Message"></textarea>
+                <button type="submit">Submit</button>
+                <p id="formMessage"></p>
+            </form>
+        <section class="card">
+            <h2>To-Do List</h2>
+            <div class="todo-input">
+                <input type="text" id="taskInput" placeholder="Enter task">
+                <button onclick="addTask()">Add</button>
+             </div>
+            <ul id="taskList"></ul>
+        </section> </div>
+    <footer>
+        <p>© 2026 Vamsi Project</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
